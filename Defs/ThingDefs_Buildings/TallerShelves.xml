@@ -6,9 +6,9 @@
     <label>tall shelf</label>
     <description>A reinforced, floor-to-ceiling shelf that holds twice as much as a standard shelf. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses.</description>
     <graphicData>
-      <texPath>Things/Building/Furniture/Shelf</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,2.6)</drawSize>
+      <texPath>Things/Building/Furniture/TallShelf</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
     </graphicData>
     <costStuffCount>35</costStuffCount>
     <statBases>
@@ -35,9 +35,9 @@
     <label>tall shelf (small)</label>
     <description>A small, reinforced, floor-to-ceiling shelf that holds twice as much as a standard small shelf. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses.</description>
     <graphicData>
-      <texPath>Things/Building/Furniture/ShelfSmall</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,2.6)</drawSize>
+      <texPath>Things/Building/Furniture/TallShelfSmall</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <uiIconScale>0.5</uiIconScale>
     <costStuffCount>18</costStuffCount>
