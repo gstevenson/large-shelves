@@ -9,5 +9,5 @@
   <loadAfter>
     <li>Ludeon.RimWorld</li>
   </loadAfter>
-  <description>Adds two new storage buildings, Tall Shelf and Tall Shelf (small): taller versions of the vanilla shelves that hold twice as much per cell. Unlocked with a new "Taller Shelving" research project.\n\nPure XML mod, no assemblies, safe to add/remove mid-save.</description>
+  <description>Adds two new storage buildings, Tall Shelf and Tall Shelf (small): taller versions of the vanilla shelves that hold twice as much per cell. Unlocked with a new "Taller Shelving" research project.\n\nPure XML mod, no assemblies, no dependencies - just two buildings bolted onto vanilla's own shelf system. If you want bigger shelves without pulling in a whole storage framework, this is a lightweight alternative to bigger furniture packs like "[sbz] Neat Storage".\n\nSafe to add/remove mid-save.</description>
 </ModMetaData>
