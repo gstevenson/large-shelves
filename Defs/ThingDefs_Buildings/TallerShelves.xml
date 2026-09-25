@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <ThingDef ParentName="StorageShelfBase">
+    <defName>TallShelf</defName>
+    <label>tall shelf</label>
+    <description>A reinforced, floor-to-ceiling shelf that holds twice as much as a standard shelf. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/Shelf</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2.6)</drawSize>
+    </graphicData>
+    <costStuffCount>35</costStuffCount>
+    <statBases>
+      <MaxHitPoints>130</MaxHitPoints>
+      <Mass>14</Mass>
+      <WorkToBuild>800</WorkToBuild>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">5</StyleDominance>
+    </statBases>
+    <size>(2,1)</size>
+    <designationHotKey>Misc12</designationHotKey>
+    <researchPrerequisites>
+      <li>TallerShelving</li>
+    </researchPrerequisites>
+    <building>
+      <maxItemsInCell>6</maxItemsInCell>
+      <relatedBuildCommands>
+        <li>TallShelfSmall</li>
+      </relatedBuildCommands>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="StorageShelfBase">
+    <defName>TallShelfSmall</defName>
+    <label>tall shelf (small)</label>
+    <description>A small, reinforced, floor-to-ceiling shelf that holds twice as much as a standard small shelf. Items stored inside will never deteriorate and don't affect the beauty of their surroundings.\n\nSince shelf space is limited, shelves cannot hold chunks, buildings, plants and large corpses.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/ShelfSmall</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,2.6)</drawSize>
+    </graphicData>
+    <uiIconScale>0.5</uiIconScale>
+    <costStuffCount>18</costStuffCount>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <Mass>7</Mass>
+      <WorkToBuild>400</WorkToBuild>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2.5</StyleDominance>
+    </statBases>
+    <size>(1,1)</size>
+    <researchPrerequisites>
+      <li>TallerShelving</li>
+    </researchPrerequisites>
+    <building>
+      <maxItemsInCell>6</maxItemsInCell>
+      <relatedBuildCommands>
+        <li>TallShelf</li>
+      </relatedBuildCommands>
+    </building>
+  </ThingDef>
+
+</Defs>

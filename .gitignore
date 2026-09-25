@@ -1,0 +1,11 @@
+# OS cruft
+Thumbs.db
+.DS_Store
+
+# Editor/IDE
+.vs/
+.idea/
+*.user
+
+# RimWorld mod publish tool sometimes writes local previews
+About/Preview.png.import

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+  <name>Taller Shelves</name>
+  <author>Greg Stevenson</author>
+  <packageId>gstevenson.tallershelves</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+  </loadAfter>
+  <description>Adds two new storage buildings, Tall Shelf and Tall Shelf (small): taller versions of the vanilla shelves that hold twice as much per cell. Unlocked with a new "Taller Shelving" research project.\n\nPure XML mod, no assemblies, safe to add/remove mid-save.</description>
+</ModMetaData>
